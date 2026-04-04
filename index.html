@@ -1,24 +1,26 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Портфолио | Хомяк Хомякович</title>
+    <title>YUSTTYY</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <!-- НАВИГАЦИЯ -->
+
     <nav class="navbar">
         <div class="container nav-container">
-            <a href="#" class="logo">Hamster<span>.</span></a>
+            <div class="logo">
+                <img src="favicon.png" alt="YUSTTYY">
+                <span class="logo-text">YUSTTYY</span>
+            </div>
             <ul class="nav-menu">
-                <li><a href="#home" class="nav-link active">Главная</a></li>
-                <li><a href="#about" class="nav-link">Обо мне</a></li>
-                <li><a href="#portfolio" class="nav-link">Портфолио</a></li>
-                <li><a href="#services" class="nav-link">Услуги</a></li>
-                <li><a href="#contact" class="nav-link">Контакты</a></li>
+                <li><a href="#socials" class="nav-link">Socials</a></li>
+                <li><a href="#wiki" class="nav-link">Wiki Exp</a></li>
+                <li><a href="#discord" class="nav-link">Discord Exp</a></li>
             </ul>
             <div class="hamburger">
                 <span></span>
@@ -28,264 +30,166 @@
         </div>
     </nav>
 
-    <!-- ГЛАВНЫЙ ЭКРАН (HERO) -->
-    <section id="home" class="hero">
-        <div class="container hero-container">
-            <div class="hero-content">
-                <h3 class="hero-subtitle">Привет, я</h3>
-                <h1 class="hero-title">Хомяк Хомякович</h1>
-                <p class="hero-description">Креативный хомяк-дизайнер и разработчик, создаю красивые и функциональные цифровые продукты. Помогаю брендам выделяться и достигать целей.</p>
-                <div class="hero-buttons">
-                    <a href="#portfolio" class="btn btn-primary">Смотреть работы</a>
-                    <a href="#contact" class="btn btn-outline">Связаться</a>
-                </div>
-                <div class="hero-social">
-                    <a href="#" target="_blank"><i class="fab fa-behance"></i></a>
-                    <a href="#" target="_blank"><i class="fab fa-dribbble"></i></a>
-                    <a href="#" target="_blank"><i class="fab fa-github"></i></a>
-                    <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
-                </div>
-            </div>
-            <div class="hero-image">
-                <div class="image-wrapper">
-                    <img src="https://i.pinimg.com/originals/7d/8e/ee/7d8eee5b9f4cac1f4e3e5e5e5e5e5e5e.jpg" alt="Смешной хомяк" onerror="this.src='https://placekitten.com/500/500'">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ОБО МНЕ -->
-    <section id="about" class="about">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Обо мне</h2>
-                <div class="section-line"></div>
-                <p class="section-subtitle">Моя история и профессиональный путь</p>
-            </div>
-            <div class="about-container">
-                <div class="about-image">
-                    <img src="https://i.pinimg.com/736x/8a/2e/6e/8a2e6e5e5e5e5e5e5e5e5e5e5e5e5e5.jpg" alt="Хомяк за работой" onerror="this.src='https://placekitten.com/500/600'">
-                </div>
-                <div class="about-content">
-                    <h3>Вдохновляю идеи, создаю решения</h3>
-                    <p>Привет! Меня зовут Хомяк Хомякович, я дизайнер и frontend-разработчик с опытом работы более 5 лет. Моя страсть — создавать эстетичные и интуитивно понятные интерфейсы, которые решают реальные задачи пользователей.</p>
-                    <p>Работал с клиентами из разных сфер: от стартапов до крупных брендов. Верю, что дизайн должен быть не только красивым, но и функциональным.</p>
-                    
-                    <div class="skills">
-                        <div class="skill-item">
-                            <span>UI/UX Дизайн</span>
-                            <div class="skill-bar"><div class="skill-progress" style="width: 90%"></div></div>
-                        </div>
-                        <div class="skill-item">
-                            <span>Веб-разработка</span>
-                            <div class="skill-bar"><div class="skill-progress" style="width: 85%"></div></div>
-                        </div>
-                        <div class="skill-item">
-                            <span>Графический дизайн</span>
-                            <div class="skill-bar"><div class="skill-progress" style="width: 75%"></div></div>
-                        </div>
-                        <div class="skill-item">
-                            <span>Анимация</span>
-                            <div class="skill-bar"><div class="skill-progress" style="width: 70%"></div></div>
-                        </div>
+    <main>
+        <section id="socials" class="hero-section">
+            <div class="hero-container">
+                <div class="hero-left">
+                    <div class="hero-header">
+                        <h1 class="hero-title">Hi, I'm Yusttyy!</h1>
+                        <p class="hero-subtitle">Also known as yusty</p>
                     </div>
                     
-                    <div class="about-info">
-                        <div><i class="fas fa-map-marker-alt"></i> Москва, Россия</div>
-                        <div><i class="fas fa-envelope"></i> hamster@example.com</div>
-                        <div><i class="fas fa-phone"></i> +7 (999) 123-45-67</div>
-                        <div><i class="fas fa-calendar-alt"></i> Freelance / Open to work</div>
+                    <div class="hero-text">
+                        <p>My name is Ilya, I'm 17 and I live in Belarus (🇧🇾). I speak Russian natively and English as a second language. I'm not really into gaming — I prefer working on my own projects that help others, such as contributing to wikis or managing discord servers. I have some experience in both areas, and I'm always happy to gain more.</p>
+                        <p>Currently, I'm working with templates, page styling, QoL features, creating and implementing categories, updating rules and regulations, and handling any other tedious tasks. I can also create pages and handle other basic tasks. I don't have any experience as a bureaucrat, but for the most part, I understand how everything works. I have my own test wiki, where I check core settings and templates, and only after that do I transfer the changes to one of the wikipedias I work on. My <a href="https://meta.miraheze.org/wiki/Special:CentralAuth/Yusttyy" class="wiki-link">Global Miraheze account information</a></p>
+                    </div>
+                </div>
+                
+                <div class="hero-right">
+                    <div class="info-card" style="display: flex; flex-direction: column;">
+                        <img id="lanyard-img" src="https://lanyard.cnrad.dev/api/928978204801269771" alt="lanyard profile readme">
+                    </div>
+                    
+                    <div class="info-card-bottom">
+                        <div class="achievements">
+                            <div class="achievement-item">
+                                <b>Interface Admin</b> @ Depth Spelunking
+                            </div>
+                            <div class="achievement-item">
+                                <b>Wiki Moderator</b> @ Fischipedia
+                            </div>
+                            <div class="achievement-item">
+                                <b>IRWA Wiki Member</b> (2 wikis)
+                            </div>
+                            <div class="achievement-item">
+                                <b>Ex Discord Admin</b> @ 3+ Servers
+                            </div>
+                        </div>
+                        
+                        <div class="social-links">
+                            <a href="https://discord.com/users/928978204801269771" target="_blank">
+                                <img src="icons/discord.png" alt="Discord" class="social-icon">
+                            </a>
+                            <a href="https://tiktok.com/@yustenka" target="_blank">
+                                <img src="icons/tiktok.png" alt="TikTok" class="social-icon">
+                            </a>
+                            <a href="https://www.roblox.com/users/3590723102/profile" target="_blank">
+                                <img src="icons/roblox.png" alt="Roblox" class="social-icon">
+                            </a>
+                            <a href="https://ru.namemc.com/profile/yusttyy" target="_blank">
+                                <img src="icons/namemc.png" alt="NameMC" class="social-icon">
+                            </a>
+                            <a href="https://depthspelunking.miraheze.org/wiki/User:Yusttyy" target="_blank">
+                                <img src="icons/dswiki.png" alt="DS Wiki" class="social-icon">
+                            </a>
+                            <a href="https://fischipedia.org/wiki/User:Yusttyy" target="_blank">
+                                <img src="icons/fischwiki.png" alt="Fischipedia" class="social-icon">
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- ПОРТФОЛИО -->
-    <section id="portfolio" class="portfolio">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Мои работы</h2>
-                <div class="section-line"></div>
-                <p class="section-subtitle">Избранные проекты, которыми я горжусь</p>
-            </div>
-            <div class="portfolio-filters">
-                <button class="filter-btn active" data-filter="all">Все работы</button>
-                <button class="filter-btn" data-filter="design">Дизайн</button>
-                <button class="filter-btn" data-filter="dev">Разработка</button>
-                <button class="filter-btn" data-filter="branding">Брендинг</button>
-            </div>
-            <div class="portfolio-grid">
-                <div class="portfolio-item" data-category="design">
-                    <div class="portfolio-card">
-                        <img src="https://i.pinimg.com/736x/1a/2b/3c/1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d.jpg" alt="Хомяк дизайнер" onerror="this.src='https://placekitten.com/400/300'">
-                        <div class="portfolio-overlay">
-                            <h3>Хомяк-дизайн</h3>
-                            <p>UI/UX Дизайн для мобильного приложения</p>
-                            <a href="#" class="portfolio-link"><i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-item" data-category="dev">
-                    <div class="portfolio-card">
-                        <img src="https://i.pinimg.com/736x/2b/3c/4d/2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e.jpg" alt="Хомяк программист" onerror="this.src='https://placekitten.com/400/300'">
-                        <div class="portfolio-overlay">
-                            <h3>Хомяк-кодер</h3>
-                            <p>Разработка корпоративного сайта</p>
-                            <a href="#" class="portfolio-link"><i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-item" data-category="branding">
-                    <div class="portfolio-card">
-                        <img src="https://i.pinimg.com/736x/3c/4d/5e/3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f.jpg" alt="Хомяк бренд-менеджер" onerror="this.src='https://placekitten.com/400/300'">
-                        <div class="portfolio-overlay">
-                            <h3>Хомяк-бренд</h3>
-                            <p>Брендинг и айдентика</p>
-                            <a href="#" class="portfolio-link"><i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-item" data-category="design">
-                    <div class="portfolio-card">
-                        <img src="https://i.pinimg.com/736x/4d/5e/6f/4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a.jpg" alt="Хомяк веб-дизайнер" onerror="this.src='https://placekitten.com/400/300'">
-                        <div class="portfolio-overlay">
-                            <h3>Хомяк-веб</h3>
-                            <p>Веб-дизайн интернет-магазина</p>
-                            <a href="#" class="portfolio-link"><i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-item" data-category="dev">
-                    <div class="portfolio-card">
-                        <img src="https://i.pinimg.com/736x/5e/6f/7a/5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b.jpg" alt="Хомяк фронтендер" onerror="this.src='https://placekitten.com/400/300'">
-                        <div class="portfolio-overlay">
-                            <h3>Хомяк-фронтенд</h3>
-                            <p>Интерактивный лендинг</p>
-                            <a href="#" class="portfolio-link"><i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-item" data-category="branding">
-                    <div class="portfolio-card">
-                        <img src="https://i.pinimg.com/736x/6f/7a/8b/6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c.jpg" alt="Хомяк арт-директор" onerror="this.src='https://placekitten.com/400/300'">
-                        <div class="portfolio-overlay">
-                            <h3>Хомяк-арт</h3>
-                            <p>Дизайн упаковки</p>
-                            <a href="#" class="portfolio-link"><i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+        <div class="separator"></div>
 
-    <!-- УСЛУГИ -->
-    <section id="services" class="services">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Что я делаю</h2>
-                <div class="section-line"></div>
-                <p class="section-subtitle">Услуги, которые я предлагаю своим клиентам</p>
-            </div>
-            <div class="services-grid">
-                <div class="service-card">
-                    <i class="fas fa-paint-brush"></i>
-                    <h3>UI/UX Дизайн</h3>
-                    <p>Создаю удобные и эстетичные интерфейсы, которые нравятся пользователям и решают бизнес-задачи.</p>
+        <section id="wiki" class="content-section">
+            <div class="section-container section-left">
+                <div class="section-text">
+                    <div class="hero-text">
+                        <p>I'm a member of the <a href="https://indierobloxwikis.org" class="wiki-link"><b>Independent Roblox Wiki Alliance</b></a> (IRWA), which is basically a group of independent Roblox wikis working together. The idea is to help each other grow and get things done - whether that's through direct support, building tools, or just helping newer wikis find their own space. I joined the alliance because I'm a staff member of Fischipedia, and after some time I brought in another wiki.</p>
+                    </div>
                 </div>
-                <div class="service-card">
-                    <i class="fas fa-code"></i>
-                    <h3>Веб-разработка</h3>
-                    <p>Разрабатываю адаптивные и производительные сайты на современных технологиях.</p>
-                </div>
-                <div class="service-card">
-                    <i class="fas fa-mobile-alt"></i>
-                    <h3>Адаптивный дизайн</h3>
-                    <p>Обеспечиваю идеальное отображение на всех устройствах — от смартфонов до десктопов.</p>
-                </div>
-                <div class="service-card">
-                    <i class="fas fa-chart-line"></i>
-                    <h3>SEO оптимизация</h3>
-                    <p>Помогаю вашему сайту занимать высокие позиции в поисковой выдаче.</p>
+                <div class="section-image">
+                    <img src="images/irwa.png" alt="IRWA">
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- КОНТАКТЫ -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Свяжитесь со мной</h2>
-                <div class="section-line"></div>
-                <p class="section-subtitle">Готов воплотить ваши идеи в жизнь</p>
-            </div>
-            <div class="contact-container">
-                <div class="contact-info">
-                    <div class="contact-card">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <h4>Локация</h4>
-                        <p>Москва, Россия<br>Работаю удаленно</p>
-                    </div>
-                    <div class="contact-card">
-                        <i class="fas fa-envelope"></i>
-                        <h4>Email</h4>
-                        <p>hamster@example.com<br>work@hamster.com</p>
-                    </div>
-                    <div class="contact-card">
-                        <i class="fas fa-phone"></i>
-                        <h4>Телефон</h4>
-                        <p>+7 (999) 123-45-67<br>+7 (999) 765-43-21</p>
+        <section class="content-section">
+            <div class="section-container section-right">
+                <div class="section-image">
+                    <img src="images/fischwiki.png" alt="Fischipedia">
+                </div>
+                <div class="section-text">
+                    <div class="hero-text">
+                        <p>My experience with wikis started with <a href="https://fischipedia.org" class="wiki-link"><b>Fischipedia</b></a> - the official wiki for Fisch, and one of the largest wikis created on Miraheze. I created my account in December 2024, and by January 2025 I had become an official editor. After working on it for 9 months (with some breaks), in October of that same year I became a moderator (or Wiki Staff). Today, I am one of the oldest editors still working on the wiki.</p>
+<p>Currently, I'm inactive and have over 2800 edits.
+<a href="https://fischipedia.org/wiki/User:Yusttyy" class="wiki-link" style="display: block; text-indent: 30px;">https://fischipedia.org/wiki/User:Yusttyy</a></p>
                     </div>
                 </div>
-                <form class="contact-form" id="contactForm">
-                    <input type="text" placeholder="Ваше имя" required>
-                    <input type="email" placeholder="Ваш Email" required>
-                    <input type="text" placeholder="Тема">
-                    <textarea rows="5" placeholder="Ваше сообщение" required></textarea>
-                    <button type="submit" class="btn btn-primary">Отправить сообщение</button>
-                </form>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- ПОДВАЛ -->
+        <section class="content-section">
+            <div class="section-container section-left">
+                <div class="section-text">
+                    <div class="hero-text">
+                        <p>The second wiki I work on is <a href="https://depthspelunking.miraheze.org" class="wiki-link"><b>Depth Spelunking Wiki</b></a>. I made my first edit there on February 7th, and in less than two months I became an interface admin. As I mentioned earlier, I was the one who suggested this wiki join the IRWA alliance.</p>
+<p>Currently, actively working on it and have over 2500 edits.
+<a href="https://depthspelunking.miraheze.org/wiki/User:Yusttyy" class="wiki-link" style="display: block; text-indent: 30px;">https://depthspelunking.miraheze.org/wiki/User:Yusttyy</a></p>
+                    </div>
+                </div>
+                <div class="section-image">
+                    <img src="images/dswiki.png" alt="Depth Spelunking">
+                </div>
+            </div>
+        </section>
+
+        <div class="separator"></div>
+
+        <section id="discord" class="content-section">
+            <div class="section-container section-right">
+                <div class="section-image">
+                    <img src="images/discord1.png" alt="Discord1">
+                </div>
+                <div class="section-text">
+                    <div class="hero-text">
+                        <p>The last server I managed was <b>Fafaland</b>. I created it to bring a small community together and help it grow. I was in charge of both the technical side and the day-to-day management — creating unique channels and styling them, designing nice role colors and icons, setting up color-roles that members could earn and trade later, building unusual automated systems with those color-roles, making interesting custom bot commands, creating polls and votes, and organising events. For the most part, I handled everything on the server by myself. On top of that, I covered the costs for server boosts to reach Level 2, as well as for a custom tag and gradient roles. I also wanted to fund a Minecraft server myself, but I never got the opportunity. Unfortunately, due to internal drama among the admin team, the server had to be shut down, and at that point it had over 150 members.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="wiki" class="content-section">
+            <div class="section-container section-left">
+                <div class="section-text">
+                    <div class="hero-text">
+                        <p>Before that, I worked on setup and management for a Russian-speaking server with 1500+ members - <b>Hizoka's Fishing Hub</b>. I was the only admin there for almost a year. My responsibilities were pretty similar to Fafaland - for example, creating and styling channels, designing roles, creating interesting and unique features, and so on. Just like on the next server, I also spent my own money on boosts.</p>
+                    </div>
+                </div>
+                <div class="section-image">
+                    <img src="images/misc1.png" alt="Misc1">
+                </div>
+            </div>
+        </section>
+
+        <section id="discord" class="content-section">
+            <div class="section-container section-right">
+                <div class="section-image">
+                    <img src="images/misc2.png" alt="Misc2">
+                </div>
+                <div class="section-text">
+                    <div class="hero-text">
+                        <p>There were also a few other servers, including Telegram chats, where I was made deputy head, and sometimes given full control. Same as before - I took on almost all the responsibilities myself.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
     <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-logo">
-                    <a href="#" class="logo">Hamster<span>.</span></a>
-                    <p>Создаю красивые и функциональные цифровые продукты, которые помогают бизнесу расти.</p>
-                </div>
-                <div class="footer-links">
-                    <h4>Навигация</h4>
-                    <ul>
-                        <li><a href="#home">Главная</a></li>
-                        <li><a href="#about">Обо мне</a></li>
-                        <li><a href="#portfolio">Портфолио</a></li>
-                        <li><a href="#services">Услуги</a></li>
-                        <li><a href="#contact">Контакты</a></li>
-                    </ul>
-                </div>
-                <div class="footer-social">
-                    <h4>Социальные сети</h4>
-                    <div class="social-icons">
-                        <a href="#"><i class="fab fa-behance"></i></a>
-                        <a href="#"><i class="fab fa-dribbble"></i></a>
-                        <a href="#"><i class="fab fa-github"></i></a>
-                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2024 Хомяк Хомякович. Все права защищены.</p>
-            </div>
+    <div class="footer-container">
+        <div class="footer-copyright">
+            © 2026 YUSTTYY. All rights reserved.
         </div>
-    </footer>
+        <div class="footer-tagline">
+            Wiki & Discord Enthusiast
+        </div>
+    </div>
+</footer>
 
-    <script src="script.js"></script>
+    <script src="Discord.js"></script>
+    <script src="Mobburg.js"></script>
 </body>
 </html>
